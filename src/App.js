@@ -15,7 +15,7 @@ function App() {
 
   const handleSearch = (newCity) => {
     setCity(newCity);
-    setError(false); // Reset error state when a new search is initiated
+    setError(false); 
   };
 
   return (

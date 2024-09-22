@@ -63,11 +63,11 @@ const CitySearch = ({ onSearch }) => {
       <Button variant="contained" color="primary" onClick={handleSearch}>
         Search
       </Button>
-      <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+      {/* <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
         <Alert onClose={handleClose} severity="error">
           {errorMessage}
         </Alert>
-      </Snackbar>
+      </Snackbar> */}
     </div>
   );
 };
